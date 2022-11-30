@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.baner, .stopka {
+    display: flex;
+    background-color: #00838F;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    font-size: 130%;
+}
+
+.dwa_boki_lewe {
+    background-color: #EFEFEF;
+    width: 55%;
+}
+
+.pierwszy {
+    height: 150px;
+}
+
+.drugi {
+    height: 300px;
+}
+
+.blok_prawy {
+    display: flex;
+    flex-direction: column;
+    background-color: #4FB3BF;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    border: solid 1px #4FB3BF;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+
+td:hover {
+    background-color: #4FB3BF;
+}
+
+h1, h3 {
+    padding: 4px;
+}
+
+.blok_prawy img {
+    max-width: 400px;
+    width: 400px;
+    box-shadow: 10px 10px 7px 0px rgba(105, 105, 105, 1);
+    margin: 20px;
+}
